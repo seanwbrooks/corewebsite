@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Website.Data
@@ -24,7 +25,7 @@ namespace Website.Data
         public string City { get; set; }
         [StringLength(50)]
         public string State { get; set; }
-        [MaxLength(9)]
+        [Range(5, 9)]
         public int ZipCode { get; set; }
 
     }
