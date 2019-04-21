@@ -16,4 +16,7 @@
       <DependentUpon>Hello.cshtml</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
 </Project>
