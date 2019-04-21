@@ -8,4 +8,12 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Pages\Hello.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\Hello.cshtml.cs">
+      <DependentUpon>Hello.cshtml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

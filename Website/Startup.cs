@@ -41,8 +41,8 @@ namespace Website
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "default",
-                    template: "{controller}/{action=Index}/{id?}");
+                    name: "Hello",
+                    template: "{controller}/{action=Hello}/{id?}");
             });
         }
     }
