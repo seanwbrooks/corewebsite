@@ -16,6 +16,9 @@
     <None Remove="Pages\Hello.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="Data\IdentityRole.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Update="Pages\Hello.cshtml.cs">
       <DependentUpon>Hello.cshtml</DependentUpon>
     </Compile>
