@@ -1,0 +1,8 @@
+LOG:  database system was shut down at 2019-04-30 18:31:57 EDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  role "websiteUser" does not exist
+FATAL:  database "InfiniteRegression" does not exist
+FATAL:  database "Website" does not exist
+FATAL:  database "Website" does not exist
