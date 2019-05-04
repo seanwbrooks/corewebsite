@@ -6,3 +6,6 @@ FATAL:  role "websiteUser" does not exist
 FATAL:  database "InfiniteRegression" does not exist
 FATAL:  database "Website" does not exist
 FATAL:  database "Website" does not exist
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
